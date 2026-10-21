@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="it" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ==============================================================
+       MODIFICA QUI: DATI SEO GENERALI
+       Il titolo e la descrizione vengono anche aggiornati da script.js
+       in base alla lingua selezionata.
+  =============================================================== -->
+  <title>Le Suites di Donna Ada | Affittacamere</title>
+  <meta name="description" content="Un affittacamere dove eleganza, autenticità e ospitalità si incontrano.">
+  <meta name="author" content="Nome B&amp;B">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f5efe4">
+  <link rel="canonical" href="https://www.donnada.it/">
+
+  <!-- Open Graph placeholder: sostituisci dominio, testi e immagine prima della pubblicazione. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="og:title" content="Le Suites di Donna Ada | Affittacamere">
+  <meta property="og:description" content="Ospitalità autentica, camere curate e quiete italiana.">
+  <meta property="og:url" content="https://www.donnada.it/">
+  <meta property="og:image" content="https://www.donnada.it/images/introduzione.jpg">
+  <meta property="og:image:alt" content="Esterno del Bed &amp; Breakfast Dimora Aurea">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="images/nuova.jpg" as="image" type="image/webp">
+
+  <!-- Google Fonts: il sito usa fallback di sistema se non c'è connessione. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="stile.css">
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+  <script src="scritte.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content" data-i18n="a11y.skipToContent">Vai al contenuto principale</a>
+
+  <!-- Sprite SVG locale: nessuna libreria di icone esterna necessaria. -->
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+      <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-arrow-left" viewBox="0 0 24 24">
+      <path d="M19 12H5m6 6-6-6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+      <path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M8 3v4M16 3v4M3 10h18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24">
+      <circle cx="9" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M3.5 20v-1.4A5.6 5.6 0 0 1 9 13a5.6 5.6 0 0 1 5.5 5.6V20M16 5.5a3 3 0 0 1 0 5.8M16.8 14a5.2 5.2 0 0 1 3.7 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-bed" viewBox="0 0 24 24">
+      <path d="M3 18V9m18 9V11a3 3 0 0 0-3-3h-6v7M3 14h18M6 14v-3.2A2.8 2.8 0 0 1 8.8 8H12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-ruler" viewBox="0 0 24 24">
+      <path d="m4 16 12-12 4 4L8 20H4v-4Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="m13 7 2 2m-5 1 2 2m-5 1 2 2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-expand" viewBox="0 0 24 24">
+      <path d="M8 3H3v5m13-5h5v5M8 21H3v-5m13 5h5v-5M3 8l6-5m12 5-6-5M3 16l6 5m12-5-6 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24">
+      <path d="m5 5 14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-wifi" viewBox="0 0 24 24">
+      <path d="M4 9a12 12 0 0 1 16 0M7 12.5a7.7 7.7 0 0 1 10 0M10 16a3.3 3.3 0 0 1 4 0" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+      <circle cx="12" cy="19" r="1" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-snowflake" viewBox="0 0 24 24">
+      <path d="M12 2v20M4.2 6.5l15.6 11M4.2 17.5l15.6-11M9 4l3 2 3-2M9 20l3-2 3 2M4.8 10l.3 3.5-3 .9M21.9 9.6l-3 .9.3 3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-coffee" viewBox="0 0 24 24">
+      <path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm13 2h1.5a2.5 2.5 0 0 1 0 5H17M7 3c0 2 2 2 2 4M12 3c0 2 2 2 2 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-sparkles" viewBox="0 0 24 24">
+      <path d="M12 2c.6 4.4 2.6 6.4 7 7-4.4.6-6.4 2.6-7 7-.6-4.4-2.6-6.4-7-7 4.4-.6 6.4-2.6 7-7Zm7 12c.3 2.2 1.3 3.2 3.5 3.5-2.2.3-3.2 1.3-3.5 3.5-.3-2.2-1.3-3.2-3.5-3.5 2.2-.3 3.2-1.3 3.5-3.5ZM5 15c.2 1.4.9 2.1 2.3 2.3-1.4.2-2.1.9-2.3 2.3-.2-1.4-.9-2.1-2.3-2.3 1.4-.2 2.1-.9 2.3-2.3Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-tv" viewBox="0 0 24 24">
+      <rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="m8 3 4 3 4-3M8 21h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-parking" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M10 17V7h3.1a3.1 3.1 0 1 1 0 6.2H10M10 13h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-luggage" viewBox="0 0 24 24">
+      <rect x="5" y="7" width="14" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M9 11v5m6-5v5M8 22h.01M16 22h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-car" viewBox="0 0 24 24">
+      <path d="m5 10 1.5-4h11l1.5 4M4 10h16v7H4v-7Zm2 7v2m12-2v2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="13.5" r="1" fill="currentColor"/><circle cx="16.5" cy="13.5" r="1" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-eye" viewBox="0 0 24 24">
+      <path d="M2.5 12S6 6.5 12 6.5 21.5 12 21.5 12 18 17.5 12 17.5 2.5 12 2.5 12Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="12" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="icon-map-pin" viewBox="0 0 24 24">
+      <path d="M12 22s7-6.1 7-13A7 7 0 0 0 5 9c0 6.9 7 13 7 13Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24">
+      <path d="M7 3H4.5A1.5 1.5 0 0 0 3 4.5C3 13.6 10.4 21 19.5 21a1.5 1.5 0 0 0 1.5-1.5V17l-4-1-1.3 2a15.4 15.4 0 0 1-9.7-9.7L8 7 7 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-email" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="17.4" cy="6.6" r="1" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24">
+      <path d="M14 21v-8h3l.5-3H14V8.2c0-.9.3-1.7 1.8-1.7H18V3.8c-.4-.1-1.5-.2-2.7-.2-2.7 0-4.5 1.6-4.5 4.6V10H8v3h2.8v8H14Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+      <path d="M20.5 11.7A8.5 8.5 0 0 1 7.9 19l-4.4 1.2 1.2-4.3A8.5 8.5 0 1 1 20.5 11.7Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M8.2 7.4c.3-.7.7-.7 1-.7h.5c.2 0 .4.1.5.5l.8 1.9c.1.3.1.5-.1.7l-.7.9c-.2.2-.2.4 0 .7.7 1.2 1.7 2.2 3 2.9.3.2.5.2.7-.1l.9-1.1c.2-.2.4-.3.7-.2l1.9.9c.3.2.5.3.5.5v.5c-.1.6-.4 1.2-.9 1.6-.5.5-1.3.8-2.1.8-1 0-2.3-.4-4.1-1.5-2.3-1.4-3.8-3.5-4.2-4.1-.4-.6-1-1.7-1-2.9 0-.6.2-1 .6-1.3Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24">
+      <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-quote" viewBox="0 0 24 24">
+      <path d="M5 18h4l2-8V5H5v6h3l-3 7Zm10 0h4l2-8V5h-6v6h3l-3 7Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-leaf" viewBox="0 0 24 24">
+      <path d="M20 4C11 4 5.5 7.4 5.5 14.4c0 2.7 1.7 4.6 4.3 4.6C16.8 19 20 12.6 20 4Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M4 21c2.2-5.7 6-9.6 11.6-12.1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24">
+      <path d="M12 3 20 6v5c0 5.3-3.4 8.6-8 10-4.6-1.4-8-4.7-8-10V6l8-3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="m8.5 12 2.2 2.2 4.8-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
+  <noscript>
+    <div class="noscript-banner">
+      Per utilizzare il cambio lingua, il menu mobile, la gallery e il modulo di richiesta è necessario attivare JavaScript.
+    </div>
+  </noscript>
+
+  <!-- ==============================================================
+       HEADER / LOGO
+       Per sostituire il logo, rimpiazza il file:
+       images/brand/logo-placeholder.svg
+       oppure sostituisci direttamente l'elemento <img> qui sotto.
+  =============================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Le Suites di Donna Ada - Home" data-config-aria-label="brandHomeLabel">
+        <img class="brand-logo" src="images/brand/Donna Adan.png" width="260" height="70" alt="Logo B&amp;B" data-i18n-alt="brand.logoAlt">
+      </a>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Navigazione principale" data-i18n-aria-label="a11y.primaryNavigation">
+        <a href="#home" class="nav-link is-active" data-nav-link data-i18n="nav.home">Home</a>
+        <a href="#struttura" class="nav-link" data-nav-link data-i18n="nav.about">La struttura</a>
+        <a href="#camere" class="nav-link" data-nav-link data-i18n="nav.rooms">Camere</a>
+        <a href="#servizi" class="nav-link" data-nav-link data-i18n="nav.services">Servizi</a>
+        <a href="#contatti" class="nav-link" data-nav-link data-i18n="nav.contacts">Contatti</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="language-switcher" role="group" aria-label="Selezione lingua" data-i18n-aria-label="a11y.languageSwitcher">
+          <button class="language-button is-active" type="button" data-language="it" aria-pressed="true">IT</button>
+          <span aria-hidden="true">|</span>
+          <button class="language-button" type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a class="button button--header" href="#disponibilita" data-i18n="cta.checkAvailability">Verifica disponibilità</a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Apri il menu" data-i18n-aria-label="a11y.openMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ============================================================
+         HERO
+         FOTO: sostituisci images/hero/hero-bnb.webp
+         oppure modifica --hero-image in css/stile.css.
+    ============================================================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow--light hero-kicker reveal" data-i18n="hero.kicker">Affittacamere, Salerno, Italia</p>
+        <h1 id="hero-title" class="hero-title reveal" data-reveal-delay="100">
+          <span data-i18n="hero.titleLine1">Il lusso semplice</span>
+          <em data-i18n="hero.titleLine2">di sentirsi a casa.</em>
+        </h1>
+        <p class="hero-subtitle reveal" data-reveal-delay="200" data-i18n="hero.subtitle">
+          Una dimora intima, camere curate e il ritmo lento dell'ospitalità italiana.
+        </p>
+        <div class="hero-actions reveal" data-reveal-delay="300">
+          <a class="button button--primary button--large" href="#disponibilita">
+            <span data-i18n="cta.checkAvailability">Verifica disponibilità</span>
+            <svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+          </a>
+          <a class="button button--ghost-light button--large" href="#camere" data-i18n="cta.discoverRooms">Scopri le camere</a>
+        </div>
+      </div>
+
+      <a class="hero-scroll" href="#struttura" aria-label="Scorri per scoprire la struttura" data-i18n-aria-label="a11y.scrollToAbout">
+        <span data-i18n="hero.scroll">Scopri</span>
+        <svg aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
+      </a>
+
+      <!-- Quick availability bar: i dati vengono copiati nel form principale. -->
+      <div class="quick-booking-wrap reveal" data-reveal-delay="400">
+        <form class="quick-booking" id="quick-booking-form" novalidate>
+          <div class="quick-field">
+            <svg aria-hidden="true"><use href="#icon-calendar"></use></svg>
+            <div>
+              <label for="quick-checkin" data-i18n="form.checkin">Check-in</label>
+              <input id="quick-checkin" name="quickCheckin" type="date" required>
+            </div>
+          </div>
+          <div class="quick-field">
+            <svg aria-hidden="true"><use href="#icon-calendar"></use></svg>
+            <div>
+              <label for="quick-checkout" data-i18n="form.checkout">Check-out</label>
+              <input id="quick-checkout" name="quickCheckout" type="date" required>
+            </div>
+          </div>
+          <div class="quick-field">
+            <svg aria-hidden="true"><use href="#icon-users"></use></svg>
+            <div>
+              <label for="quick-adults" data-i18n="form.adults">Adulti</label>
+              <select id="quick-adults" name="quickAdults" aria-label="Numero adulti" data-i18n-aria-label="form.adultsAria">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+          </div>
+          <button class="button button--dark quick-submit" type="submit">
+            <span data-i18n="cta.checkNow">Verifica ora</span>
+            <svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Trust bar -->
+    <section class="trust-strip" aria-label="Punti di forza" data-i18n-aria-label="a11y.trustHighlights">
+      <div class="container trust-grid">
+        <div class="trust-item reveal">
+          <svg aria-hidden="true"><use href="#icon-shield"></use></svg>
+          <div><strong data-i18n="trust.directTitle">Contatto diretto</strong><span data-i18n="trust.directText">Assistenza personale, senza intermediari</span></div>
+        </div>
+        <div class="trust-item reveal" data-reveal-delay="80">
+          <svg aria-hidden="true"><use href="#icon-leaf"></use></svg>
+          <div><strong data-i18n="trust.quietTitle">Atmosfera intima</strong><span data-i18n="trust.quietText">Poche camere, tempo e tranquillità</span></div>
+        </div>
+        <div class="trust-item reveal" data-reveal-delay="160">
+          <svg aria-hidden="true"><use href="#icon-map-pin"></use></svg>
+          <div><strong data-i18n="trust.locationTitle">Posizione ideale</strong><span data-i18n="trust.locationText">Vicino ai luoghi più autentici</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PRESENTAZIONE STRUTTURA
+         FOTO: images/hero/about-interior.webp
+    ============================================================= -->
+    <section class="section section--about" id="struttura" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="image-frame image-frame--portrait">
+            <img src="images/apertura.jpg" width="1600" height="1200" loading="lazy" alt="Interno elegante e luminoso del Bed &amp; Breakfast" data-i18n-alt="about.imageAlt">
+          </div>
+          <div class="floating-note" aria-hidden="true">
+            <span class="floating-note-number">5 camere</span>
+            <span data-i18n="about.floatingNote">un'accoglienza su misura</span>
+          </div>
+          <div class="decorative-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-copy reveal" data-reveal-delay="120">
+          <p class="eyebrow" data-i18n="about.kicker">La nostra dimora</p>
+          <h2 id="about-title" data-i18n="about.title">Un luogo autentico, pensato per rallentare.</h2>
+          <p class="lead" data-i18n="about.lead">
+            Le Suites di Donna Ada nasce dal desiderio di trasformare una casa italiana piena di luce in un rifugio intimo, dove ogni ospite possa sentirsi atteso.
+          </p>
+          <p data-i18n="about.body">
+            Materiali naturali, colori caldi e dettagli artigianali accompagnano un'ospitalità discreta e attenta. Qui il comfort non è ostentazione, ma qualità del riposo, colazioni preparate con cura e consigli sinceri per scoprire il territorio.
+          </p>
+
+          <div class="about-values">
+            <article class="value-item">
+              <span>01</span>
+              <div><h3 data-i18n="about.value1Title">Cura personale</h3><p data-i18n="about.value1Text">Indicazioni, tempi e attenzioni pensati intorno al vostro soggiorno.</p></div>
+            </article>
+            <article class="value-item">
+              <span>02</span>
+              <div><h3 data-i18n="about.value2Title">Bellezza essenziale</h3><p data-i18n="about.value2Text">Spazi eleganti e rilassanti, senza eccessi e con materiali autentici.</p></div>
+            </article>
+            <article class="value-item">
+              <span>03</span>
+              <div><h3 data-i18n="about.value3Title">Territorio vissuto</h3><p data-i18n="about.value3Text">Luoghi, sapori e incontri selezionati come li consiglieremmo a un amico.</p></div>
+            </article>
+          </div>
+
+          <a class="text-link" href="#servizi">
+            <span data-i18n="about.discoverServices">Scopri tutti i servizi</span>
+            <svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CAMERE (galleria fotografica unica)
+         Le sezioni "Camere" e "Gallery" sono state unite: qui ci sono
+         solo foto, senza dividere per camera e senza prezzi o dettagli.
+
+         PER AGGIUNGERE UNA FOTO:
+         1) copia il file nella cartella images/rooms/
+         2) duplica uno dei blocchi <button class="gallery-item ..."> qui sotto
+            e cambia il percorso in ENTRAMBI i punti (data-src e src).
+         Classi opzionali per variare la griglia (se hai dubbi, non usarle:
+         le foto normali si dispongono sempre ordinatamente, 3 per riga):
+           gallery-item--wide = foto larga | gallery-item--tall = foto alta
+         PER TOGLIERNE UNA: cancella il suo blocco <button>...</button>.
+    ============================================================= -->
+    <section class="section section--sand" id="camere" aria-labelledby="rooms-title">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow" data-i18n="rooms.kicker">Le camere</p>
+            <h2 id="rooms-title" data-i18n="rooms.title">Cinque modi di vivere la stessa quiete.</h2>
+          </div>
+          <p data-i18n="rooms.intro">Ambienti luminosi, tessuti naturali e dettagli scelti con cura. Ogni camera ha una personalità diversa, la stessa attenzione al comfort.</p>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item gallery-item--wide reveal" type="button" data-gallery-item data-src="images/rooms/camera 1.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/camera 1.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item gallery-item--tall reveal" type="button" data-gallery-item data-src="images/rooms/camera p1.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/camera p1.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/camera 3.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/camera 3.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/camera 4.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/camera 4.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/camera 5.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/camera 5.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/camera 2.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/camera 2.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/bagno.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/bagno.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/p1.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/p1.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item gallery-item--tall reveal" type="button" data-gallery-item data-src="images/rooms/p6.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/p6.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/p2.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/p2.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/p3.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/p3.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-item data-src="images/rooms/p5.jpg" aria-label="Apri la foto a schermo intero" data-i18n-aria-label="rooms.openPhoto">
+            <img src="images/rooms/p5.jpg" width="1400" height="1100" loading="lazy" alt="Foto di una camera della dimora" data-i18n-alt="rooms.photoAlt">
+          </button>
+        </div>
+
+        <div class="gallery-cta reveal">
+          <a class="button button--primary button--large" href="#disponibilita">
+            <span data-i18n="cta.checkAvailability">Verifica disponibilità</span>
+            <svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVIZI
+         Duplica o elimina liberamente le service-card.
+    ============================================================= -->
+    <section class="section section--services" id="servizi" aria-labelledby="services-title">
+      <div class="container services-layout">
+        <div class="services-intro reveal">
+          <p class="eyebrow" data-i18n="services.kicker">Servizi</p>
+          <h2 id="services-title" data-i18n="services.title">Tutto ciò che serve. Nulla di superfluo.</h2>
+          <p data-i18n="services.intro">Abbiamo scelto servizi semplici ma accurati, pensati per rendere il soggiorno fluido dal primo messaggio fino alla partenza.</p>
+          <a class="button button--outline" href="#disponibilita" data-i18n="services.askService">Richiedi un servizio</a>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal"><svg aria-hidden="true"><use href="#icon-wifi"></use></svg><h3 data-i18n="services.wifiTitle">Wi-Fi gratuito</h3><p data-i18n="services.wifiText">Connessione veloce in camere e aree comuni.</p></article>
+          <article class="service-card reveal" data-reveal-delay="50"><svg aria-hidden="true"><use href="#icon-snowflake"></use></svg><h3 data-i18n="services.airTitle">Climatizzazione</h3><p data-i18n="services.airText">Temperatura regolabile in ogni camera.</p></article>
+          <article class="service-card reveal" data-reveal-delay="150"><svg aria-hidden="true"><use href="#icon-sparkles"></use></svg><h3 data-i18n="services.cleaningTitle">Pulizia giornaliera</h3><p data-i18n="services.cleaningText">Cura quotidiana degli ambienti e della biancheria.</p></article>
+          <article class="service-card reveal"><svg aria-hidden="true"><use href="#icon-tv"></use></svg><h3 data-i18n="services.tvTitle">Smart TV</h3><p data-i18n="services.tvText">Intrattenimento e servizi streaming personali.</p></article>
+          <article class="service-card reveal" data-reveal-delay="50"><svg aria-hidden="true"><use href="#icon-parking"></use></svg><h3 data-i18n="services.parkingTitle">Parcheggio</h3><p data-i18n="services.parkingText">Disponibile o convenzionato, su richiesta.</p></article>
+          <article class="service-card reveal" data-reveal-delay="100"><svg aria-hidden="true"><use href="#icon-clock"></use></svg><h3 data-i18n="services.checkinTitle">Check-in assistito</h3><p data-i18n="services.checkinText">Accoglienza personale e self check-in concordato.</p></article>
+          <article class="service-card reveal" data-reveal-delay="150"><svg aria-hidden="true"><use href="#icon-luggage"></use></svg><h3 data-i18n="services.luggageTitle">Deposito bagagli</h3><p data-i18n="services.luggageText">Prima del check-in e dopo il check-out.</p></article>
+          <article class="service-card reveal"><svg aria-hidden="true"><use href="#icon-car"></use></svg><h3 data-i18n="services.transferTitle">Transfer</h3><p data-i18n="services.transferText">Stazione, aeroporto e destinazioni locali.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TERRITORIO / ESPERIENZE
+         FOTO: images/experiences/
+    ============================================================= -->
+    <section class="section section--experiences" id="territorio" aria-labelledby="experiences-title">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow" data-i18n="experiences.kicker">Vivere il territorio</p>
+            <h2 id="experiences-title" data-i18n="experiences.title">Fuori dalla porta, l'Italia più autentica.</h2>
+          </div>
+          <p data-i18n="experiences.intro">Itinerari lenti, sapori locali e luoghi che raccontano il carattere della nostra terra. Saremo felici di aiutarvi a scegliere.</p>
+        </div>
+
+        <div class="experiences-grid">
+          <article class="experience-card experience-card--large reveal">
+            <img src="images/experiences/storico.jpg" width="1200" height="900" loading="lazy" alt="Vicolo di un centro storico italiano" data-i18n-alt="experiences.historicAlt">
+            <div class="experience-card-content"><span>01</span><h3 data-i18n="experiences.historicTitle">Il Centro Storico</h3><p data-i18n="experiences.historicText">Passeggiate tra botteghe, pietra chiara e piazze vissute.</p></div>
+          </article>
+          <article class="experience-card reveal" data-reveal-delay="80">
+            <img src="images/experiences/pompei.jpg" width="1200" height="900" loading="lazy" alt="Paesaggio naturale con ulivi" data-i18n-alt="experiences.natureAlt">
+            <div class="experience-card-content"><span>02</span><h3 data-i18n="experiences.natureTitle">Pompei</h3><p data-i18n="experiences.natureText">Oltre agli scavi archeologici, la città offre scorci suggestivi e un'atmosfera unica.</p></div>
+          </article>
+          <article class="experience-card reveal" data-reveal-delay="160">
+            <img src="images/experiences/paestum1.jpg" width="1200" height="900" loading="lazy" alt="Sentiero panoramico sulla costa" data-i18n-alt="experiences.hikeAlt">
+            <div class="experience-card-content"><span>03</span><h3 data-i18n="experiences.hikeTitle">Paestum</h3><p data-i18n="experiences.hikeText">I templi antichi e le spiagge circostanti offrono un'esperienza unica tra storia e natura.</p></div>
+          </article>
+          <article class="experience-card experience-card--large reveal" data-reveal-delay="240">
+            <img src="images/experiences/amalfi.jpg" width="1200" height="900" loading="lazy" alt="Tavola con piatti e vino del territorio" data-i18n-alt="experiences.foodAlt">
+            <div class="experience-card-content"><span>04</span><h3 data-i18n="experiences.foodTitle">La Costiera Amalfitana</h3><p data-i18n="experiences.foodText">Indirizzi selezionati, produttori e cucina locale sincera.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         RECENSIONI DEMO
+         Sostituisci con recensioni autentiche e verificabili.
+    ============================================================= -->
+    <section class="section section--reviews" id="recensioni" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="reviews-heading reveal">
+          <div>
+            <p class="eyebrow eyebrow--light" data-i18n="reviews.kicker">Parole degli ospiti</p>
+            <h2 id="reviews-title" data-i18n="reviews.title">La sensazione più bella è voler tornare.</h2>
+          </div>
+          <div class="review-controls" aria-label="Controlli recensioni" data-i18n-aria-label="reviews.controlsAria">
+            <button class="icon-button icon-button--light" type="button" data-review-prev aria-label="Recensione precedente" data-i18n-aria-label="reviews.prevAria"><svg aria-hidden="true"><use href="#icon-arrow-left"></use></svg></button>
+            <button class="icon-button icon-button--light" type="button" data-review-next aria-label="Recensione successiva" data-i18n-aria-label="reviews.nextAria"><svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg></button>
+          </div>
+        </div>
+
+        <div class="reviews-viewport reveal" data-reveal-delay="100">
+          <div class="reviews-track" id="reviews-track">
+            <article class="review-card">
+              <svg class="review-quote" aria-hidden="true"><use href="#icon-quote"></use></svg>
+              <div class="review-stars" aria-label="5 stelle" data-i18n-aria-label="reviews.fiveStars"><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg></div>
+              <blockquote data-i18n="reviews.review1Text">“Il B&B di Donna Ada è fantastico, molto accogliente. Abbiamo soggiornato dal 10 al 17 Settembre io e la mia ragazza, servizio di ogni genere dal bagno provato in camera, wifi, climatizzatore, televisione, frigo bar e la cosa più bella l'accoglienza del sig. Bruno il proprietario molto gentile e venuto incontro alle nostre esigenze, ci consigliava dove mangiare e visitare i posti più belli, Consigliatissimo.”</blockquote>
+              <footer><strong data-i18n="reviews.review1Name">Giulia &amp; Marco</strong><span data-i18n="reviews.review1Stay">Soggiorno di coppia · Testo demo</span></footer>
+            </article>
+            <article class="review-card">
+              <svg class="review-quote" aria-hidden="true"><use href="#icon-quote"></use></svg>
+              <div class="review-stars" aria-label="5 stelle" data-i18n-aria-label="reviews.fiveStars"><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg></div>
+              <blockquote data-i18n="reviews.review2Text">“Accoglienza autentica e consigli preziosi. La camera era luminosa, profumata e molto più spaziosa di quanto immaginassimo.”</blockquote>
+              <footer><strong data-i18n="reviews.review2Name">Sophie</strong><span data-i18n="reviews.review2Stay">Viaggio tra amiche · Testo demo</span></footer>
+            </article>
+            <article class="review-card">
+              <svg class="review-quote" aria-hidden="true"><use href="#icon-quote"></use></svg>
+              <div class="review-stars" aria-label="5 stelle" data-i18n-aria-label="reviews.fiveStars"><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg></div>
+              <blockquote data-i18n="reviews.review3Text">“Posizione perfetta per esplorare i dintorni, ma il vero lusso è stato tornare ogni sera in un luogo così tranquillo.”</blockquote>
+              <footer><strong data-i18n="reviews.review3Name">David &amp; Emma</strong><span data-i18n="reviews.review3Stay">Tour in Italia · Testo demo</span></footer>
+            </article>
+            <article class="review-card">
+              <svg class="review-quote" aria-hidden="true"><use href="#icon-quote"></use></svg>
+              <div class="review-stars" aria-label="5 stelle" data-i18n-aria-label="reviews.fiveStars"><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg><svg><use href="#icon-star"></use></svg></div>
+              <blockquote data-i18n="reviews.review4Text">“La suite è elegante senza essere formale. Tutto comunica attenzione: dalla biancheria ai suggerimenti per la cena.”</blockquote>
+              <footer><strong data-i18n="reviews.review4Name">Elena</strong><span data-i18n="reviews.review4Stay">Weekend speciale · Testo demo</span></footer>
+            </article>
+          </div>
+        </div>
+        <p class="demo-disclaimer" data-i18n="reviews.disclaimer">Le recensioni mostrate sono contenuti dimostrativi: sostituiscile con testimonianze reali e verificabili.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         VERIFICA DISPONIBILITÀ
+         WHATSAPP ed EMAIL si modificano in cima a scritte.js,
+         nell'oggetto BUILTIN_SITE_CONFIG.
+    ============================================================= -->
+    <section class="section section--availability" id="disponibilita" aria-labelledby="availability-title">
+      <div class="container availability-grid">
+        <div class="availability-copy reveal">
+          <p class="eyebrow" data-i18n="availability.kicker">Richiesta senza impegno</p>
+          <h2 id="availability-title" data-i18n="availability.title">Raccontaci il soggiorno che immagini.</h2>
+          <p class="lead" data-i18n="availability.lead">Compila il modulo e scegli se inviare la richiesta via WhatsApp o email. Ti risponderemo personalmente con disponibilità e proposta.</p>
+
+          <ul class="availability-benefits">
+            <li><span>01</span><div><strong data-i18n="availability.benefit1Title">Risposta personale</strong><p data-i18n="availability.benefit1Text">Nessun messaggio automatico: parli direttamente con la struttura.</p></div></li>
+            <li><span>02</span><div><strong data-i18n="availability.benefit2Title">Richiesta flessibile</strong><p data-i18n="availability.benefit2Text">Indica esigenze, orari, bambini o servizi speciali.</p></div></li>
+            <li><span>03</span><div><strong data-i18n="availability.benefit3Title">Nessun pagamento online</strong><p data-i18n="availability.benefit3Text">Questo modulo invia solo una richiesta: la prenotazione sarà confermata separatamente.</p></div></li>
+          </ul>
+
+          <div class="direct-contact-card">
+            <span data-i18n="availability.preferDirect">Preferisci scriverci subito?</span>
+            <a href="#" data-config-href="whatsapp" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg><span data-config-text="whatsappDisplay">+39 393 170 3251</span></a>
+            <a href="#" data-config-href="email"><svg aria-hidden="true"><use href="#icon-email"></use></svg><span data-config-text="email">info@donnaada.it</span></a>
+          </div>
+        </div>
+
+        <div class="availability-form-card reveal" data-reveal-delay="120">
+          <form id="availability-form" class="availability-form" novalidate>
+            <div class="form-heading">
+              <span class="form-step">01</span>
+              <div><h3 data-i18n="form.title">Dettagli della richiesta</h3><p data-i18n="form.requiredNote">I campi contrassegnati con * sono obbligatori.</p></div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-field form-field--full">
+                <label for="guest-name"><span data-i18n="form.fullName">Nome e cognome</span> *</label>
+                <input id="guest-name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Es. Mario Rossi" data-i18n-placeholder="form.fullNamePlaceholder">
+                <span class="field-error" data-error-for="guest-name"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="guest-email"><span data-i18n="form.email">Email</span> *</label>
+                <input id="guest-email" name="email" type="email" autocomplete="email" required placeholder="nome@email.it" data-i18n-placeholder="form.emailPlaceholder">
+                <span class="field-error" data-error-for="guest-email"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="guest-phone" data-i18n="form.phone">Telefono</label>
+                <input id="guest-phone" name="phone" type="tel" autocomplete="tel" placeholder="+39 ..." data-i18n-placeholder="form.phonePlaceholder">
+                <span class="field-error" data-error-for="guest-phone"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="checkin"><span data-i18n="form.checkin">Check-in</span> *</label>
+                <input id="checkin" name="checkin" type="date" required>
+                <span class="field-error" data-error-for="checkin"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="checkout"><span data-i18n="form.checkout">Check-out</span> *</label>
+                <input id="checkout" name="checkout" type="date" required>
+                <span class="field-error" data-error-for="checkout"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="adults"><span data-i18n="form.adults">Adulti</span> *</label>
+                <select id="adults" name="adults" required>
+                  <option value="1">1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+                <span class="field-error" data-error-for="adults"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="children" data-i18n="form.children">Bambini</label>
+                <select id="children" name="children">
+                  <option value="0" selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+
+              <div class="form-field form-field--full">
+                <label for="room"><span data-i18n="form.room">Camera desiderata</span> *</label>
+                <select id="room" name="room" required>
+                  <option value="any" data-i18n="form.roomAny">Qualsiasi camera disponibile</option>
+                  <option value="deluxe" data-i18n="rooms.deluxe.name">Camera Deluxe</option>
+                  <option value="superior" data-i18n="rooms.superior.name">Camera Superior</option>
+                  <option value="suite" data-i18n="rooms.suite.name">Suite</option>
+                  <option value="camera4" data-i18n="rooms.camera4.name">Anima</option>
+                  <option value="camera5" data-i18n="rooms.camera5.name">Amore</option>
+                </select>
+                <span class="field-error" data-error-for="room"></span>
+              </div>
+
+              <div class="form-field form-field--full">
+                <label for="message" data-i18n="form.message">Messaggio / richieste particolari</label>
+                <textarea id="message" name="message" rows="5" placeholder="Orario di arrivo, esigenze alimentari, culla, transfer..." data-i18n-placeholder="form.messagePlaceholder"></textarea>
+              </div>
+
+              <div class="form-field form-field--full form-consent">
+                <label class="checkbox-label" for="privacy-consent">
+                  <input id="privacy-consent" name="privacyConsent" type="checkbox" required>
+                  <span class="custom-checkbox" aria-hidden="true"></span>
+                  <span><span data-i18n="form.privacyPrefix">Ho letto l'</span> <a href="privacy.html" target="_blank" data-i18n="form.privacyLink">informativa privacy</a> <span data-i18n="form.privacySuffix">e autorizzo il trattamento dei dati per rispondere alla richiesta.</span> *</span>
+                </label>
+                <span class="field-error" data-error-for="privacy-consent"></span>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="button button--whatsapp button--large" type="button" id="send-whatsapp">
+                <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+                <span data-i18n="form.sendWhatsapp">Invia richiesta via WhatsApp</span>
+              </button>
+              <button class="button button--primary button--large" type="button" id="send-email">
+                <svg aria-hidden="true"><use href="#icon-email"></use></svg>
+                <span data-i18n="form.sendEmail">Invia richiesta via Email</span>
+              </button>
+            </div>
+
+            <p class="form-technical-note" data-i18n="form.technicalNote">Il pulsante email apre il programma di posta del dispositivo tramite mailto:. Per invii automatici integra un backend, Formspree o EmailJS.</p>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ ACCORDION
+    ============================================================= -->
+    <section class="section section--faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal">
+          <p class="eyebrow" data-i18n="faq.kicker">Domande frequenti</p>
+          <h2 id="faq-title" data-i18n="faq.title">Informazioni utili prima di arrivare.</h2>
+          <p data-i18n="faq.intro">Non trovi la risposta? Scrivici: saremo felici di aiutarti a organizzare il soggiorno.</p>
+          <a class="text-link" href="#contatti"><span data-i18n="faq.contactUs">Contattaci</span><svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+        </div>
+
+        <div class="faq-list reveal" data-reveal-delay="100">
+          <article class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-1"><span data-i18n="faq.q1">A che ora è il check-in?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+            <div class="faq-answer" id="faq-answer-1" hidden><p data-i18n="faq.a1">Il check-in è normalmente disponibile dalle 15:00 alle 20:00. Orari diversi possono essere concordati in anticipo.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-2"><span data-i18n="faq.q2">A che ora è il check-out?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+            <div class="faq-answer" id="faq-answer-2" hidden><p data-i18n="faq.a2">Il check-out è previsto entro le 10:30. Il deposito bagagli può essere richiesto gratuitamente.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-3"><span data-i18n="faq.q3">È disponibile il parcheggio?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+            <div class="faq-answer" id="faq-answer-3" hidden><p data-i18n="faq.a3">È disponibile una soluzione di parcheggio privata o convenzionata. Contattaci prima dell'arrivo per ricevere indicazioni precise.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-4"><span data-i18n="faq.q4">La colazione è inclusa?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+            <div class="faq-answer" id="faq-answer-4" hidden><p data-i18n="faq.a4">Sì, salvo diversa indicazione nella proposta. Comunica in anticipo allergie, intolleranze o preferenze alimentari.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-5"><span data-i18n="faq.q5">Sono ammessi animali?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+            <div class="faq-answer" id="faq-answer-5" hidden><p data-i18n="faq.a5">L'accoglienza degli animali dipende dalla camera e dal periodo. Indicalo nella richiesta per verificare la soluzione migliore.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-6"><span data-i18n="faq.q6">Come posso verificare la disponibilità?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
+            <div class="faq-answer" id="faq-answer-6" hidden><p data-i18n="faq.a6">Compila il modulo e invia la richiesta via WhatsApp o email. Riceverai una risposta diretta con disponibilità, prezzo e condizioni.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTATTI E MAPPA
+         Tutti i dati si modificano nell'oggetto SITE_CONFIG
+         in cima a scritte.js (BUILTIN_SITE_CONFIG).
+    ============================================================= -->
+    <section class="section section--contact" id="contatti" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow" data-i18n="contact.kicker">Contatti</p>
+            <h2 id="contact-title" data-i18n="contact.title">Siamo qui per aiutarti a partire.</h2>
+          </div>
+          <p data-i18n="contact.intro">Scrivici per disponibilità, indicazioni, richieste speciali o semplicemente per capire quale camera è più adatta al tuo soggiorno.</p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-panel reveal">
+            <div class="contact-brand">
+              <img src="images/brand/Donna Adan.png" width="260" height="70" alt="Logo B&amp;B" data-i18n-alt="brand.logoAlt">
+              <p data-i18n="contact.tagline">Ospitalità intima, eleganza naturale, Italia autentica.</p>
+            </div>
+
+            <address class="contact-list">
+              <div class="contact-item">
+                <svg aria-hidden="true"><use href="#icon-map-pin"></use></svg>
+                <div><span data-i18n="contact.addressLabel">Indirizzo</span><strong data-config-text="fullAddress">Via Principessa Sighelgaita 1, Salerno (SA)</strong></div>
+              </div>
+              <div class="contact-item">
+                <svg aria-hidden="true"><use href="#icon-phone"></use></svg>
+                <div><span data-i18n="contact.phoneLabel">Telefono</span><a href="#" data-config-href="phone"><strong data-config-text="phoneDisplay">+39 393 170 3251</strong></a></div>
+              </div>
+              <div class="contact-item">
+                <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+                <div><span>WhatsApp</span><a href="#" data-config-href="whatsapp" target="_blank" rel="noopener noreferrer"><strong data-config-text="whatsappDisplay">+39 393 170 3251</strong></a></div>
+              </div>
+              <div class="contact-item">
+                <svg aria-hidden="true"><use href="#icon-email"></use></svg>
+                <div><span>Email</span><a href="#" data-config-href="email"><strong data-config-text="email">info@donnaada.it</strong></a></div>
+              </div>
+              <div class="contact-item">
+                <svg aria-hidden="true"><use href="#icon-clock"></use></svg>
+                <div><span data-i18n="contact.hoursLabel">Assistenza</span><strong data-config-text="assistanceHours">Tutti i giorni · 08:00–21:00</strong></div>
+              </div>
+            </address>
+
+            <div class="contact-socials" aria-label="Profili social" data-i18n-aria-label="contact.socialAria">
+              <a href="#" data-config-href="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg aria-hidden="true"><use href="#icon-instagram"></use></svg><span>Instagram</span></a>
+              <a href="#" data-config-href="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg aria-hidden="true"><use href="#icon-facebook"></use></svg><span>Facebook</span></a>
+            </div>
+          </div>
+
+          <div class="map-card reveal" data-reveal-delay="120">
+            <!-- ===== MODIFICA QUI LA MAPPA =====
+                 Puoi sostituire src con l'iframe ottenuto da Google Maps.
+                 Il valore viene anche impostato da SITE_CONFIG.googleMapsEmbedUrl.
+            -->
+            <iframe
+              id="google-map"
+              title="Mappa della posizione del Bed &amp; Breakfast"
+              data-i18n-title="contact.mapTitle"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.6482786171246!2d14.759541375797106!3d40.681718039469345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133bc22e41243107%3A0x7296d45d22510191!2sVia%20Principessa%20Sichelgaita%2C%201%2C%2084125%20Salerno%20SA!5e0!3m2!1sit!2sit!4v1791134099759!5m2!1sit!2sit"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="map-overlay-card">
+              <span data-i18n="contact.mapCardKicker">Come raggiungerci</span>
+              <strong data-config-text="location">Salerno (SA)</strong>
+              <p data-i18n="contact.mapCardText">Indicazioni dettagliate e informazioni su parcheggio e transfer saranno inviate prima dell'arrivo.</p>
+              <a class="text-link" href="#" data-config-href="directions" target="_blank" rel="noopener noreferrer"><span data-i18n="contact.openMaps">Apri in Google Maps</span><svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta" aria-labelledby="final-cta-title">
+      <div class="final-cta-media" aria-hidden="true"></div>
+      <div class="final-cta-overlay" aria-hidden="true"></div>
+      <div class="container final-cta-content reveal">
+        <p class="eyebrow eyebrow--light" data-i18n="finalCta.kicker">Il tuo tempo, qui</p>
+        <h2 id="final-cta-title" data-i18n="finalCta.title">La prossima storia può iniziare da una camera piena di luce.</h2>
+        <p data-i18n="finalCta.text">Scrivici le date: ti risponderemo con la soluzione più adatta e tutti i dettagli.</p>
+        <a class="button button--primary button--large" href="#disponibilita"><span data-i18n="cta.sendRequest">Invia una richiesta</span><svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================================
+       FOOTER
+       Contatti e link social sono popolati da SITE_CONFIG.
+  =============================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a href="#home"><img src="images/brand/Donna Adan.png" width="260" height="70" alt="Logo B&amp;B" data-i18n-alt="brand.logoAlt"></a>
+        <p data-i18n="footer.description">Una piccola dimora italiana dedicata a chi cerca quiete, autenticità e un'ospitalità curata.</p>
+        <div class="footer-socials">
+          <a href="#" data-config-href="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg aria-hidden="true"><use href="#icon-instagram"></use></svg></a>
+          <a href="#" data-config-href="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg aria-hidden="true"><use href="#icon-facebook"></use></svg></a>
+          <a href="#" data-config-href="whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h2 data-i18n="footer.explore">Esplora</h2>
+        <nav aria-label="Navigazione footer" data-i18n-aria-label="a11y.footerNavigation">
+          <a href="#struttura" data-i18n="nav.about">La struttura</a>
+          <a href="#camere" data-i18n="nav.rooms">Camere</a>
+          <a href="#servizi" data-i18n="nav.services">Servizi</a>
+          <a href="#territorio" data-i18n="nav.territory">Territorio</a>
+        </nav>
+      </div>
+
+      <div class="footer-column">
+        <h2 data-i18n="footer.contact">Contatti</h2>
+        <address>
+          <span data-config-text="fullAddress">Via Principessa Sighelgaita 1, Salerno (SA)</span>
+          <a href="#" data-config-href="phone" data-config-text="phoneDisplay">+39 393 170 3251</a>
+          <a href="#" data-config-href="email" data-config-text="email">info@donnaada.it</a>
+        </address>
+      </div>
+
+      <div class="footer-column footer-booking">
+        <h2 data-i18n="footer.stayWithUs">Soggiorna con noi</h2>
+        <p data-i18n="footer.bookingText">Scrivici direttamente per una proposta personalizzata.</p>
+        <a class="button button--footer" href="#disponibilita" data-i18n="cta.checkAvailability">Verifica disponibilità</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="current-year">2026</span> <span data-config-text="bnbName">Le Suites di Donna Ada</span>. <span data-i18n="footer.rights">Tutti i diritti riservati.</span></p>
+      <div>
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="cookie.html" data-i18n="footer.cookie">Cookie Policy</a>
+        <button type="button" data-cookie-settings data-i18n="footer.cookieSettings">Preferenze cookie</button>
+      </div>
+      <p class="footer-credit" data-i18n="footer.credit">Sito demo personalizzabile per strutture ricettive.</p>
+    </div>
+  </footer>
+
+  <!-- Pulsante WhatsApp fisso -->
+  <a class="floating-whatsapp" href="#" data-config-href="whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contatta il B&amp;B su WhatsApp" data-i18n-aria-label="a11y.whatsappFloating">
+    <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+    <span data-i18n="floatingWhatsapp.label">Scrivici</span>
+  </a>
+
+  <!-- Cookie banner informativo. Adegua testi e logica alla tua configurazione reale. -->
+  <aside class="cookie-banner" id="cookie-banner" aria-label="Informativa cookie" data-i18n-aria-label="cookie.bannerAria" hidden>
+    <div>
+      <strong data-i18n="cookie.title">La tua privacy</strong>
+      <p><span data-i18n="cookie.text">Questo sito demo utilizza solo strumenti tecnici necessari. Se integrerai analytics o marketing, aggiorna banner e policy.</span> <a href="cookie.html" data-i18n="cookie.more">Maggiori informazioni</a>.</p>
+    </div>
+    <div class="cookie-actions">
+      <button class="button button--small button--outline" type="button" data-cookie-decline data-i18n="cookie.technicalOnly">Solo necessari</button>
+      <button class="button button--small button--dark" type="button" data-cookie-accept data-i18n="cookie.accept">Accetta</button>
+    </div>
+  </aside>
+
+  <!-- ==============================================================
+       LIGHTBOX GALLERY
+  =============================================================== -->
+  <dialog class="lightbox" id="gallery-lightbox" aria-labelledby="lightbox-caption">
+    <div class="lightbox-shell">
+      <button class="lightbox-close icon-button" type="button" data-lightbox-close aria-label="Chiudi la gallery" data-i18n-aria-label="a11y.closeGallery"><svg aria-hidden="true"><use href="#icon-close"></use></svg></button>
+      <button class="lightbox-nav lightbox-nav--prev icon-button" type="button" data-lightbox-prev aria-label="Immagine precedente" data-i18n-aria-label="a11y.previousImage"><svg aria-hidden="true"><use href="#icon-arrow-left"></use></svg></button>
+      <figure>
+        <img id="lightbox-image" src="" alt="">
+        <figcaption><span id="lightbox-caption"></span><span id="lightbox-counter"></span></figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-nav--next icon-button" type="button" data-lightbox-next aria-label="Immagine successiva" data-i18n-aria-label="a11y.nextImage"><svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg></button>
+    </div>
+  </dialog>
+</body>
+</html>
